@@ -49,7 +49,6 @@ function App() {
     <div className="lift-control-wrapper">
       <div className="lift-wrapper">
         <div className="lift">
-          {/* Pass the clickedFloorNumber as the "steps" prop to LiftItem */}
           <LiftItem steps={clickedFloorNumber} className="lift-item">{clickedFloorNumber}</LiftItem>
         </div>
       </div>
