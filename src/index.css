@@ -51,6 +51,8 @@ body {
   align-items: flex-start;
   justify-content: center;
   padding: 10px;
+  animation: lift-move 3s ease-in-out forwards;
+  transition: transform 3s ease-in-out;
 }
 
 .floor-number-wrap {
